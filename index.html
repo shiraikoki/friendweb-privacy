@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>プライバシーポリシー – FriendWeb</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+      font-size: 16px;
+      line-height: 1.8;
+      color: #1c1c1e;
+      background: #f5f5f7;
+      padding: 24px 16px 64px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 18px;
+      padding: 40px 36px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    }
+    header { margin-bottom: 36px; }
+    header h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; }
+    header p { color: #6e6e73; font-size: 14px; margin-top: 6px; }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 32px 0 10px;
+      padding-left: 12px;
+      border-left: 4px solid #007aff;
+      color: #1c1c1e;
+    }
+    p, li { color: #3a3a3c; margin-bottom: 8px; }
+    ul { padding-left: 20px; margin-bottom: 8px; }
+    li { margin-bottom: 4px; }
+    a { color: #007aff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .updated { font-size: 13px; color: #8e8e93; margin-top: 4px; }
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid #e5e5ea;
+      font-size: 14px;
+      color: #6e6e73;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>プライバシーポリシー</h1>
+    <p class="updated">最終更新日：2026年6月29日</p>
+  </header>
+
+  <p>
+    FriendWeb（以下「本アプリ」）は、FriendWeb（以下「当方」）が提供する位置情報共有サービスです。
+    本プライバシーポリシーは、本アプリが収集する情報、その利用目的、および第三者への提供について説明します。
+    本アプリをご利用になることで、本ポリシーに同意したものとみなします。
+  </p>
+
+  <h2>1. 収集する情報</h2>
+  <p>本アプリは、以下の情報を収集します。</p>
+  <ul>
+    <li><strong>アカウント情報：</strong>Apple ID または Google アカウントによる認証を通じて取得した識別子・メールアドレス・表示名。</li>
+    <li><strong>位置情報：</strong>アプリ使用中および（許可を受けた場合は）バックグラウンドでの端末の位置情報（緯度・経度）。</li>
+    <li><strong>メッセージ：</strong>グループチャット機能を通じて送受信されたテキストメッセージ。</li>
+    <li><strong>デバイストークン：</strong>プッシュ通知の配信に使用する Firebase Cloud Messaging (FCM) トークン。</li>
+    <li><strong>利用ログ：</strong>アプリの機能利用に伴う操作ログ・タイムスタンプ等のメタデータ。</li>
+  </ul>
+
+  <h2>2. 情報の利用目的</h2>
+  <p>収集した情報は、以下の目的でのみ利用します。</p>
+  <ul>
+    <li>友達・グループメンバーへの位置情報の共有</li>
+    <li>グループチャット機能の提供</li>
+    <li>プッシュ通知（グループ招待・到着通知等）の配信</li>
+    <li>サービスの品質向上・不正利用の防止</li>
+  </ul>
+
+  <h2>3. 位置情報について</h2>
+  <p>
+    本アプリは、友達への位置共有機能を提供するために位置情報を取得します。
+    位置情報は、ユーザーが明示的に友達登録または同一グループに参加しているメンバーにのみ共有されます。
+    第三者の広告目的・マーケティング目的での利用は行いません。
+  </p>
+  <p>
+    バックグラウンドでの位置情報取得を許可しない場合、アプリがアクティブでない間は位置情報が共有されません。
+    位置情報の共有は、アプリ内の「ゴーストモード」またはシステム設定からいつでも停止できます。
+  </p>
+
+  <h2>4. 情報の共有・第三者提供</h2>
+  <p>当方は、以下の場合を除き、収集した情報を第三者に提供しません。</p>
+  <ul>
+    <li><strong>Firebase / Google LLC：</strong>データの保存（Firestore）・認証（Firebase Authentication）・プッシュ通知（FCM）に利用します。Google のプライバシーポリシーが適用されます（<a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>）。</li>
+    <li><strong>法令に基づく開示：</strong>法的な要請・命令がある場合。</li>
+  </ul>
+
+  <h2>5. データの保持・削除</h2>
+  <p>
+    収集したデータは、サービス提供に必要な期間のみ保持します。
+    アカウントを削除した場合、位置情報・メッセージ・アカウント情報は速やかに削除されます。
+    アカウントの削除は、アプリ内「設定 → アカウント → アカウントを削除」から行えます。
+  </p>
+
+  <h2>6. セキュリティ</h2>
+  <p>
+    データの保護のため、通信には TLS 暗号化を使用し、Firebase のセキュリティルールによりアクセス制御を実施しています。
+    ただし、インターネット上の完全なセキュリティを保証することはできません。
+  </p>
+
+  <h2>7. 子どものプライバシー</h2>
+  <p>
+    本アプリは 13 歳未満のお子様を対象としていません。
+    13 歳未満のお子様からの個人情報を意図的に収集することはありません。
+  </p>
+
+  <h2>8. プライバシーポリシーの変更</h2>
+  <p>
+    本ポリシーは、サービスの変更に伴い更新される場合があります。
+    重要な変更がある場合は、アプリ内通知またはこのページへの更新をもって告知します。
+  </p>
+
+  <h2>9. お問い合わせ</h2>
+  <p>
+    プライバシーに関するご質問・ご要望は、以下の連絡先までお送りください。
+  </p>
+  <p>
+    <strong>FriendWeb</strong><br />
+    メール：<a href="mailto:shirai.koki@gmail.com">shirai.koki@gmail.com</a>
+  </p>
+
+  <footer>
+    &copy; 2026 FriendWeb. All rights reserved.
+  </footer>
+
+</div>
+</body>
+</html>
