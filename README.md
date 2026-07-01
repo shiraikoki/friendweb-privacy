@@ -65,4 +65,4 @@
 
 プライバシーに関するご質問は以下までご連絡ください。
 
-メール：shirai.koki@gmail.com
+メール：friendweb.support@gmail.com
