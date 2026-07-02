@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FriendWeb – 招待</title>
+  <script>
+    // URLパラメータから uid を取得して friendweb:// スキームへリダイレクト
+    const uid = new URLSearchParams(location.search).get('uid');
+    if (uid) {
+      location.href = 'friendweb://invite?uid=' + encodeURIComponent(uid);
+    }
+  </script>
+  <style>
+    body {
+      font-family: -apple-system, sans-serif;
+      text-align: center;
+      padding: 60px 20px;
+      color: #333;
+    }
+    h2 { font-size: 24px; margin-bottom: 12px; }
+    p  { color: #666; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <h2>FriendWeb</h2>
+  <p>アプリが自動で開きます…<br>開かない場合はアプリをインストールしてください。</p>
+</body>
+</html>
